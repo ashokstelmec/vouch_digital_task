@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* *************Login************* */
+h1 {
+  color: #030037 !important;
+  font-size: 42px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.height {
+  height: 85vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
+  padding: 10px 30px !important;
+}
+
+.input::placeholder {
+  color: #B8BABC;
+}
+
+.icon {
+  top: 10px;
+  left: 4px;
+}
+
+.icon-2 {
+  right: 10px;
+  top: 10px;
+}
+
+
+/* ************Nav*************** */
+.search {
+  padding: 10px 30px !important;
+}
+
+.bottom{
+  bottom: 0 !important;
+}
+.left .position-absolute {
+  top: 11px;
+  left: 6px;
+}
+
+.color {
+  color: #B8BABC !important;
+}
+
+.left .list-unstyled li:hover {
+  background-color: #153AC7;
+  color: #F8F9FD;
+  cursor: pointer;
+}
+
+.mt {
+  margin-top: 17rem;
+}
+
+.position {
+  top: 7px;
+  left: 194px;
+}
+.dNone{
+  display: none;
+}
+.toggle{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* ************VIEW CLIENTS ********** */
+.bg-color {
+  background-color: #F8F9FD;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* *****************Theme*********** */
+.w-1 {
+  background: #F5F5F5;
+  height: 20vh;
+}
+
+.w-2 {
+  width: 20%;
+  height: 10vh;
+  background: #153AC7;
+}
+
+.gap5 {
+  gap: 6rem !important;
+}
+
+.right {
+  right: 10px;
+}
+
+.center {
+  top: 15%;
+  right: 40%;
+}
+
+
+/* *****************Modules*********** */
+.hover li:hover {
+  background: #153AC7;
+  color: #F5F5F5;
+}
+
+.hover li:hover .d-task {
+  opacity: 1;
+}
+
+.d-task {
+  right: 7px;
+  top: 10px;
+  opacity: 0;
+}
+
+.shadow {
+  border: 3px solid #F5F5F5;
+  box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+}
+
+.none {
+  right: 30px;
+  top: 230px;
+}
+
+
+/* *****************SuccessFull*********** */
+.btn-text-color {
+  color: #153AC7 !important;
+}
+
+.btn-color {
+  background: #153AC7 !important;
+}
+
+.btn-bg {
+  background: #F8F9FD !important;
+  border: none !important;
+}
+
+.fs {
+  font-size: 12px !important;
+}
+
+.fs-9 {
+  font-size: 11px !important;
 }
