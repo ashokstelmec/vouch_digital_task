@@ -10,10 +10,10 @@ import AddClient from './AddClient';
 
 
 const Theme = () => {
-const navigate = useNavigate();
-const handleModule = () => {
-navigate("/moduleForm")
-}
+    const navigate = useNavigate();
+    const handleModule = () => {
+    navigate("/moduleForm")
+    }
 return (
 <>
     <div className="d-flex bg-color">

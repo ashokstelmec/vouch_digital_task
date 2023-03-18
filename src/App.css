@@ -65,9 +65,11 @@ h1 {
   top: 7px;
   left: 194px;
 }
+
 .dNone{
   display: none;
 }
+
 .toggle{
   display: flex;
 }
@@ -85,7 +87,7 @@ h1 {
   height: 20vh;
 }
 
-.w-2 {
+.w-2{
   width: 20%;
   height: 10vh;
   background: #153AC7;

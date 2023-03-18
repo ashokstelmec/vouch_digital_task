@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [passwordType, setPasswordType] = useState("password");
-    const [passwordInput, setPasswordInput] = useState("");
     const [formData, setFormData] = useState({username : "", password : ""});
 
     const {username, password} = formData;
@@ -39,7 +38,6 @@ const Login = () => {
     }
 
     const PasswordChange =(e)=>{
-        setPasswordInput(e.target.value);
         setFormData((prev) => ({
         ...prev, [e.target.name]: e.target.value
         }))
@@ -71,7 +69,7 @@ return (
 
                 <div className='position-relative'>
                     <LockIcon className='position-absolute icon color' />
-                    <input type="password" name='password' value={password} onChange={PasswordChange}
+                    <input type={passwordType} name='password' value={password} onChange={PasswordChange}
                         placeholder='Password' className='form-control border mb-4 rounded-2 input' />
                     <div onClick={togglePassword}>
                         {passwordType === "password" ?

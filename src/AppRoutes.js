@@ -6,9 +6,9 @@ import Theme from './Components/Theme';
 import CreateProfileForm from './Components/CreateProfileForm';
 import Login from './Components/Login';
 import Modules from './Components/Modules';
-import SuccessFull from './Components/SuccessFull';
+import SuccessFul from './Components/SuccessFul';
 
-const AppRoute = () => {
+const AppRoutes = () => {
     const router = createBrowserRouter([
         {
             path: "/",
@@ -36,7 +36,7 @@ const AppRoute = () => {
         },
         {
             path : "/successfull",
-            element: <SuccessFull />
+            element: <SuccessFul />
         }
 
 
@@ -49,4 +49,4 @@ const AppRoute = () => {
   )
 }
 
-export default AppRoute
+export default AppRoutes

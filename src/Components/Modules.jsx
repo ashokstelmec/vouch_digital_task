@@ -9,10 +9,10 @@ import Nav from './Nav';
 
 
 const Modules = () => {
-const navigate = useNavigate();
-const handleSuccess = () => {
-navigate("/successfull")
-}
+    const navigate = useNavigate();
+    const handleSuccess = () => {
+    navigate("/successfull")
+    }
 return (
 <>
     <div className="d-flex bg-color">

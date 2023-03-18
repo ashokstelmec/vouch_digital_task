@@ -5,27 +5,18 @@ import { useNavigate } from 'react-router-dom';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 
 const Nav = () => {
-const navigate = useNavigate();
-const handleAddClient = () => {
-navigate("/addclient");
-}
-const handleViewClient = () => {
-navigate("/vClient");
-}
+    const navigate = useNavigate();
+    const handleAddClient = () => {
+    navigate("/addclient");
+    }
+    const handleViewClient = () => {
+    navigate("/vClient");
+    }
 
-const handleView = () => {
-const bars = document.querySelector('.left');
-bars.classList.toggle("toggle")
-}
-
-// const handleActive = () =>{
-//    const activeEl=  document.querySelectorAll(".rounded-2")[1];
-//    console.log(activeEl)
-
-//    activeEl.forEach((e) =>{
-//     e.style.color = "red";
-//    })
-// }
+    const handleView = () => {
+        const bars = document.querySelector('.left');
+        bars.classList.toggle("toggle")
+    }
 
 return (
 <>
